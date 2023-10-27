@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border-style: none;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito Sans", "Open Sans", Arial, sans-serif;
+    background-color: #1a1d28;
+    color: #ededee;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}

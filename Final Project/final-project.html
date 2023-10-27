@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Nifemi Leye">
+    <meta name="description" content="Nifemi Leye: Web Developer">
+    <meta name="keywords" content="web developer, web, developer, 
+      front-end, html, css, javascript, react, sql">
+    <title>Client Detection</title>
+    <link rel="icon" 
+    href="./assets/img/favicon.jpg" 
+    type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/index.css">
+    <link rel="stylesheet" href="./assets/style/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap">
+    <script src="./assets/script/index.js" defer></script>
+</head>
+    <body>
+        <main>
+            <div class="container">
+                    <section>
+                        <p class="sub-header">System</p>
+                        <div class="content">
+                            <p id="OS"></p>
+                            <p id="Language"></p>
+                            <p id="Browser"></p>
+                        </div>
+                    </section>
+                    <section>
+                        <p class="sub-header">Window</p>
+                        <div class="content">
+                            <p id="page-w"></p>
+                            <p id="page-h"></p>
+                            <p id="page-o"></p>
+                        </div>
+                    </section>
+                    <section>
+                        <p class="sub-header">Battery</a></p>
+                        <div class="content">
+                            <div class="battery-info">
+                                <!--Typing Not Available here will make this to 
+                                appear in unsupported browsers because if it is 
+                                supported the javascript will replace the text  
+                                -->
+                                <p id="battery-level">Level: Not Available</p>
+                                <p id="battery-status">Status: Not Available</p>
+                              </div>
+                        </div>
+                    </section>
+                    <section>
+                        <p class="sub-header">Mouse location</p>
+                        <div class="content">
+                            <p id="cursor-x"></p>
+                            <p id="cursor-y"></p>
+                        </div>
+                    </section>
+                    <section>
+                        <div id="status" class="connection-status">Connected</div>
+                    </section>
+                </div>                
+        </main>
+    </body>
+</html>

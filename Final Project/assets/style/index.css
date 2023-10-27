@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+
+main {
+    margin-top: 15vh;
+}
+
+.content {
+    border: 2px solid #26232b;
+    padding: 8px;
+    background-color: #191720;
+}
+
+.sub-header {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+    background-color: #26232b;
+    border-radius: 2px;
+}
+
+
+
+section {
+    width: 40vh;
+}
+
+.connection-status {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    color: #d0ecd7;
+    border-radius: 5px;
+}
+
+/* Style for when the div is connected to Wi-Fi */
+.connection-status.connected {
+    background-color: #28a745;
+}
+
+/* Style for when the div is disconnected from Wi-Fi */
+.connection-status.disconnected {
+    background-color: #FF0000;
+}
+
