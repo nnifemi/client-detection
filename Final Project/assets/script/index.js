@@ -86,7 +86,8 @@ window.addEventListener('load', () => {
     checkOrientation();
 });
 
-// Battery
+// Connection Status
+
 const connectionStatus = document.getElementById('status');
 
 function updateStatus(online) {
@@ -105,7 +106,7 @@ window.addEventListener('offline', OnlineStatusChange);
 
 OnlineStatusChange();
 
-
+// Battery
 const batteryLevelElem = document.getElementById('battery-level');
 const batteryStatusElem = document.getElementById('battery-status');
 
