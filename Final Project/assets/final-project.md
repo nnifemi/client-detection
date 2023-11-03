@@ -8,7 +8,7 @@
 - **Languages**: HTML, CSS, and JavaScript
 - **Structure**: The website should consist of a body element. There's no header, and the items should be centered and held in a container that respects browser resizing.
 
-## Website Content
+## Website Content:
 
 ### System Information
 - **Operating System**: (Will be checked by JavaScript)
@@ -16,6 +16,7 @@
 - **Browser Name**: (Will be checked by JavaScript) 
 
 ### Window Information
+- **Browser Width**: (when resized it will be updated)
 - **Browser Height**: (when resized it will be updated)
 - **Orientation**: (Will be updated when height > width)
 
