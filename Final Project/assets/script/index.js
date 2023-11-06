@@ -97,7 +97,6 @@ function updateStatus(online) {
 }
 
 function OnlineStatusChange() {
-    // L has to be capital else script will not work
     updateStatus(navigator.onLine);
 }
 
