@@ -50,4 +50,3 @@
 
 8. **Mouse Location**: Add event listeners to track the cursor's position in the browser.
 
-This is an overview of my project. You'll need to properly write the JavaScript code, and create the appropriate HTML and CSS to bring your website to life.
