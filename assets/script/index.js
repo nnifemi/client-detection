@@ -124,15 +124,22 @@ function handleBatteryChange(event) {
     updateBatteryStatus(event.target);
 }
 
+
 if ('getBattery' in navigator) {
-    navigator.getBattery().then(battery => {
 
-        updateBatteryLevel(battery);
-        updateBatteryStatus(battery);
+    navigator.getBattery()
+        .then(battery => {
+            updateBatteryLevel(battery);
+            updateBatteryStatus(battery);
 
-        battery.addEventListener('levelchange', handleBatteryChange);
-        battery.addEventListener('chargingchange', handleBatteryChange);
-    })
+            battery.addEventListener('levelchange', handleBatteryChange);
+            battery.addEventListener('chargingchange', handleBatteryChange);
+        })
+        .catch(error => {
+            console.error('Battery API error:', error);
+        });
+} else {
+    console.error('Battery Status API not supported.');
 }
 
 // Mouse location
